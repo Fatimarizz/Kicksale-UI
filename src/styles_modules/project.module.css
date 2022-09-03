@@ -1,0 +1,141 @@
+.font2{
+    color: grey;
+   
+}
+.font1{
+    font-weight:bold ;
+}
+.img{
+    box-sizing: border-box;
+    display: inline-block;
+    overflow: hidden;
+    width: initial;
+    height: initial;
+    background: none;
+    opacity: 1;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    max-width: 100%;
+
+}
+.card1{
+    display: grid;
+    grid-column: 1;
+    gap: 4.25rem;
+    
+   margin: 0px auto;
+}
+.cardmain{
+    border-radius: 45px;
+    
+    border: 5px solid #CB3694;
+    background-color: #16182D;
+}
+
+.cardbody{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    padding: 1.25rem;
+
+}
+@media (min-width:768px){
+    .card1{
+        padding: 10px;
+    }
+    .cardbody{
+        flex-direction: row;
+        padding: 1.25rem;
+
+    }
+    .cardinside{
+        height: 400px;
+        padding: 1.25rem;
+
+    }
+    .btn{
+        font-size: .875rem;
+    line-height: 1.25rem;   
+    }
+    
+
+}
+@media (min-width:1024px){
+    .card1{
+        grid-column: 2;
+        grid-template-columns: repeat(2,minmax(0,1fr));
+        padding: 20px;
+    }
+    .cardinside{
+        margin-top: 0px;
+    }
+}
+.cardinside{
+    margin-top: -0.75rem;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+.title{
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-weight: bold;
+
+    
+}
+@media (min-width: 1024px){
+    .title{
+        font-size: 1.875rem;
+        line-height: 0.25rem;
+    }
+    .buttonbody{
+        margin-top: 12px;
+    }
+    .moreinfo{
+        margin-top: 20px;
+    }
+}
+.subtitle{
+    max-width: 250px;
+    font-size: .875rem;
+    line-height: 1.25rem;
+text-transform: capitalize;
+    
+}
+.buttonbody{
+    display: flex;
+    align-items: center;
+
+   
+}
+.btn{
+    border-radius: 28px;
+    background-color: #CB3694;
+    font-size: 0.85rem;
+    font-weight: 600;
+    padding: 7px 10px 7px 10px;
+
+}
+.avax{
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+    margin: 0px 15px 0px 15px;
+   
+} 
+.moreinfo{
+   
+    width: 100%;
+    background-color:#5133D5 ;
+    letter-spacing: .05em;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: .875rem;
+    line-height: 1.25rem;
+    padding: 0.5rem 0.75rem;
+    border-radius: 9999px;
+   
+}

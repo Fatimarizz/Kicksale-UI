@@ -1,0 +1,64 @@
+.parentnav{
+    background-color: black;
+    border-radius: 100px;
+    color: white;
+   
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    padding: 10px;
+    width: 1882px;
+
+            padding: 0.5rem;
+    margin-top: 10px;
+}
+
+  
+.btngrid{
+    margin-left: 2.5rem;
+
+    
+}
+button:hover{
+
+    color: rgb(139 112 255);
+    background-color: #31303E !important;
+   
+}
+
+.menuitem{
+    text-transform: uppercase !important;
+    font-weight: 600;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+}
+@media (min-width: 900px)
+{
+    .parentnav{
+        background-color: (0,0,0,.6);
+    opacity: 1;
+}
+}
+@media (min-width: 1280px){
+.btngrid {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+}
+}
+@media (min-width: 1024px){
+.btngrid{
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+}
+}
+@media (min-width: 1024px){
+.btngrid {
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+}
+}
+@media (min-width: 1024px){}
+.btngrid {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+}

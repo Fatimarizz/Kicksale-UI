@@ -1,0 +1,122 @@
+.head{
+    text-align: center;
+    font-weight: 700;
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+   
+}
+.main{
+    max-width: 72rem;
+    margin-top: 2.5rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+  .tab{
+    filter: drop-shadow(0 0 10px #9b2b93);
+    border-radius: 0.75rem;
+    display: flex;
+    flex-direction: column;
+   
+  }
+  .tabin{
+    overflow-x: auto;
+   
+  }
+  .tabinn{
+    display: inline-block;
+    min-width: 80%;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+   
+  }
+  .tabinnn{
+    border-width: 1px;
+    border-radius: 30px;
+    overflow: hidden;
+   
+  }
+  .table{
+    text-align: center;
+    --tw-gradient-to: #190f3c;
+    --tw-gradient-from: #5e245a;
+    --tw-gradient-stops: var(--tw-gradient-from),var(--tw-gradient-to,rgba(94,36,90,0));
+    background-image: linear-gradient(to right,var(--tw-gradient-stops));
+    border-radius: 33px;
+    min-width: 100%;
+    border:0.5px solid #DDDDDD;
+    
+  }
+  .table th{
+    border-right: 0.5px solid #DDDDDD;
+  }
+  .table td{
+    border-right: 0.5px solid #DDDDDD;
+    border-top: 0.5px solid #DDDDDD;
+  }
+  .firstrow{
+    --tw-text-opacity: 1;
+    color: rgb(255 255 255/var(--tw-text-opacity));
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: .875rem;
+    line-height: 1.25rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+padding-top: 1rem;
+padding-bottom: 1rem;
+
+/* border-right: 0.5px solid #DDDDDD; */
+  }
+  .col{
+    color: white;
+    text-transform: uppercase;
+    font-size: .875rem;
+    line-height: 1.25rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    /* border-right: 0.5px solid #DDDDDD;; */
+}
+   /* .border{
+    border: 0.5px solid #DDDDDD;;
+   } */
+.row{
+    white-space: nowrap;
+    border-right-width: 1px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    font-weight: 700;
+    
+}
+  @media (min-width: 1024px){
+.tabin{
+    margin-left: -2rem;
+    margin-right: -2rem;
+}
+.tabinn{
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+}
+  
+  @media (min-width: 640px){
+.tabin {
+  margin-left: 2.5rem;
+  margin-right: 0.5rem;
+    margin-bottom: 20px;
+}
+.tabinn{
+  padding-left: 4.5rem;
+    padding-right: 1.5rem;
+}
+.row{
+ 
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+
+}
+}
+  
